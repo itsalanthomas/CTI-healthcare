@@ -1,100 +1,93 @@
-🩺 Healthcare Cyber Threat Intelligence Analysis
+# 🩺 Healthcare Cyber Threat Intelligence Analysis
 
-This project focuses on collecting, exploring, and modeling cyber threat data related to healthcare breaches, sourced from the HIPAA Journal. The goal is to uncover breach trends and predict the number of individuals affected using machine learning.
+This project collects, explores, and models cyber threat data related to healthcare breaches, sourced from the HIPAA Journal. The aim is to uncover trends in healthcare data breaches and predict the number of individuals affected using machine learning.
 
-🔍 Project Overview
-Source
-Data was scraped from the HIPAA Journal using:
+---
 
-Selenium (with Chromedriver) for rendering JavaScript-based content
+## 🔍 Project Overview
 
-BeautifulSoup for parsing and extracting HTML elements
+**Source**  
+Scraped breach data from the [HIPAA Journal](https://www.hipaajournal.com/) using:
+- `Selenium` with `Chromedriver` to handle JavaScript-rendered content
+- `BeautifulSoup` to parse and extract data from HTML
 
-Objectives
+**Objectives**
+- Extract healthcare breach data into a clean CSV
+- Visualize breach patterns across states, years, and entity types
+- Predict breach impact (number of individuals affected) using regression
 
-Extract healthcare breach data into a clean, structured CSV
+---
 
-Explore and visualize trends across states, years, and breach types
+## 🛠️ Tools & Technologies
 
-Predict the potential impact of future breaches via regression modeling
+- **Web Scraping**: Selenium, Chromedriver, BeautifulSoup  
+- **Data Analysis & Visualization**: Pandas, Matplotlib, Seaborn  
+- **Machine Learning**: XGBoost Regressor (XGBRegressor), Scikit-learn  
 
-🛠️ Tools & Technologies
-Web Scraping: Selenium, Chromedriver, BeautifulSoup
+---
 
-Data Analysis & Visualization: Pandas, Matplotlib, Seaborn
+## 📁 Dataset
 
-Machine Learning: XGBoost Regressor (XGBRegressor), Scikit-learn
+**Filename**: `healthcare_breaches.csv`
 
-📁 Dataset
-File: healthcare_breaches.csv
+**Columns**:
+- `State`
+- `Covered Entity Type`
+- `Type of Breach`
+- `Individuals Affected`
+- `Year`
 
-Key Columns:
+**Preprocessing**:
+- Handled missing values
+- Ensured proper data types
 
-State
+---
 
-Covered Entity Type
+## 📊 Exploratory Data Analysis
 
-Type of Breach
+Two key visualizations were created:
 
-Individuals Affected
+1. **Heatmap**  
+   Shows the number of breaches by state and year  
+   *(See: `heatmap.png`)*
 
-Year
+2. **Pie Chart**  
+   Displays the distribution of Covered Entity Types  
+   *(See: `pie_chart.png`)*
 
-Preprocessing Steps:
+---
 
-Handled missing and null values
+## 🤖 Predictive Modeling
 
-Converted columns to appropriate data types for analysis and modeling
+A regression model was developed to predict the number of individuals affected by a breach.
 
-📊 Exploratory Data Analysis
-Two core visualizations were created to examine trends:
+- **Features**: `State`, `Covered Entity Type`, `Type of Breach`, `Year`
+- **Target**: `Individuals Affected` (log-transformed)
+- **Model**: `XGBRegressor`
 
-Heatmap
-Number of healthcare breaches by state and year
-📎 heatmap.png
+**Model Performance**:
+- **MSE**: 2.24  
+- **RMSE**: 1.50  
+- **MAE**: 0.93  
+- **R² Score**: -0.87 (Baseline: 1.34)
 
-Pie Chart
-Distribution of Covered Entity Types involved in breaches
-📎 pie_chart.png
+⚠️ *The model had poor generalization, reflecting the complexity of breach severity prediction using only metadata.*
 
-🤖 Predictive Modeling
-A regression model was built to predict the number of individuals affected by a breach using:
+---
 
-Features: State, Covered Entity Type, Type of Breach, Year
+## 📌 Key Takeaways
 
-Target: Individuals Affected (log-transformed)
+- **Business Associates** are involved in over **50%** of breach incidents.
+- Breach frequency fluctuates significantly by **state** and **year**.
+- Predicting the number of affected individuals is complex and likely requires richer context.
 
-Model Used: XGBRegressor
+---
 
-Performance Metrics:
+## ✅ Future Improvements
 
-MSE: 2.24
+- Add granular features (e.g., breach description, duration, resolution time)
+- Explore classification models (e.g., high vs low impact breaches)
+- Integrate with external threat intelligence sources
 
-RMSE: 1.50
-
-MAE: 0.93
-
-R² Score: -0.87 (Baseline: 1.34)
-
-⚠️ The model struggled to generalize, revealing the complexity and high variance in predicting breach impact based on metadata alone.
-
-📌 Key Takeaways
-Business Associates accounted for over 50% of breach cases.
-
-Breach activity varies significantly by state and year.
-
-Accurate prediction of breach impact likely requires more detailed features, such as:
-
-Data type exposed
-
-Resolution time
-
-Breach scope or narrative descriptions
-
-✅ Future Improvements
-Incorporate additional breach-level attributes (e.g., detailed descriptions, response time).
-
-Test classification models for predicting high-impact vs low-impact breaches.
-
-Enrich the dataset using external cyber threat intelligence or vendor metadata.
+---
 
