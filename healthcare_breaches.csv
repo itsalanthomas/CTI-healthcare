@@ -1,0 +1,80 @@
+Rank,Year,Name of Covered Entity,State,Covered Entity Type,Individuals Affected,Type of Breach
+1,2024,"Change Healthcare, Inc.",MN,Business Associate,"190,000,000",Hacking/IT Incident
+2,2015,Anthem Inc.,IN,Health Plan,"78,800,000",Hacking/IT Incident
+3,2023,"Welltok, Inc.",CO,Business Associate,"14,782,887",Hacking/IT Incident
+4,2024,"Kaiser Foundation Health Plan, Inc.",CA,Health Plan,"13,400,000",Unauthorized Access/Disclosure
+5,2019,"Optum360, LLC",MN,Business Associate,"11,500,000",Hacking/IT Incident
+6,2023,HCA Healthcare,TN,Business Associate,"11,270,000",Hacking/IT Incident
+7,2015,Premera Blue Cross,WA,Health Plan,"11,000,000",Hacking/IT Incident
+8,2019,Laboratory Corporation of America Holdings dba LabCorp,NC,Healthcare Provider,"10,251,784",Hacking/IT Incident
+9,2015,"Excellus Health Plan, Inc.",NY,Health Plan,"9,358,891",Hacking/IT Incident
+10,2023,"Perry Johnson & Associates, Inc. dba PJ&A",NV,Business Associate,"9,302,588",Hacking/IT Incident
+11,2023,"Maximus, Inc.",VA,Business Associate,"9,179,226",Hacking/IT Incident
+12,2023,Managed Care of North America,GA,Business Associate,"8,627,242",Hacking/IT Incident
+13,2014,Community Health Systems Professional Services Corporations,TN,Healthcare Provider,"6,121,158",Hacking/IT Incident
+14,2023,PharMerica Corporation,KY,Healthcare Provider,"5,815,591",Hacking/IT Incident
+15,2024,Ascension Health,MO,Healthcare Provider,"5,599,699",Hacking/IT Incident
+16,2011,Science Applications International Corporation (SA,VA,Business Associate,"4,900,000",Loss
+17,2023,HealthEC LLC,NJ,Business Associate,"4,656,293",Hacking/IT Incident
+18,2015,"University of California, Los Angeles Health",CA,Healthcare Provider,"4,500,000",Hacking/IT Incident
+19,2014,Community Health Systems Professional Services Corporation,TN,Business Associate,"4,500,000",Theft
+20,2024,"HealthEquity, Inc.",UT,Business Associate,"4,300,000",Hacking/IT Incident
+21,2023,"Reventics, LLC",FL,Business Associate,"4,212,823",Hacking/IT Incident
+22,2021,"20/20 Eye Care Network, Inc",FL,Business Associate,"4,142,440",Hacking/IT Incident
+23,2022,"OneTouchPoint, Inc.",WI,Business Associate,"4,112,892",Hacking/IT Incident
+24,2023,Colorado Department of Health Care Policy & Financing,CO,Health Plan,"4,091,794",Hacking/IT Incident
+25,2013,"Advocate Health and Hospitals Corporation, d/b/a Advocate Medical Group",IL,Healthcare Provider,"4,029,530",Theft
+26,2024,"Concentra Health Services, Inc.",TX,Healthcare Provider,"3,998,163",Hacking/IT Incident
+27,2016,Banner Health,AZ,Healthcare Provider,"3,620,000",Hacking/IT Incident
+28,2021,Florida Healthy Kids Corporation,FL,Health Plan,"3,500,000",Hacking/IT Incident
+29,2015,Medical Informatics Engineering,IN,Business Associate,"3,500,000",Hacking/IT Incident
+30,2016,"Newkirk Products, Inc.",NY,Business Associate,"3,466,120",Hacking/IT Incident
+31,2023,"Regal Medical Group, Lakeside Medical Organization, ADOC Acquisition, & Greater Covina Medical Group",CA,Healthcare Provider,"3,388,856",Hacking/IT Incident
+32,2020,Trinity Health,MI,Business Associate,"3,320,726",Hacking/IT Incident
+33,2023,CareSource,OH,Business Associate,"3,180,537",Unauthorized Access/Disclosure
+34,2023,"Cerebral, Inc",DE,Business Associate,"3,179,835",Unauthorized Access/Disclosure
+35,2024,Centers for Medicare & Medicaid Services,MD,Health Plan,"3,112,815",Hacking/IT Incident
+36,2023,"NationsBenefits Holdings, LLC",FL,Business Associate,"3,037,303",Hacking/IT Incident
+37,2022,Advocate Aurora Health,WI,Healthcare Provider,"3,000,000",Unauthorized Access/Disclosure
+38,2019,"Dominion Dental Services, Inc., Dominion National Insurance Company, and Dominion Dental Services USA, Inc.",VA,Health Plan,"2,964,778",Hacking/IT Incident
+39,2021,Lincare Holdings Inc.,FL,Healthcare Provider,"2,918,444",Hacking/IT Incident
+40,2024,"Acadian Ambulance Service, Inc.",LA,Healthcare Provider,"2,896,985",Hacking/IT Incident
+41,2023,"Navvis & Company, LLC",MO,Business Associate,"2,824,726",Hacking/IT Incident
+42,2024,A&A Services d/b/a Sav-Rx,NE,Business Associate,"2,812,336",Hacking/IT Incident
+43,2023,"ESO Solutions, Inc.",TX,Business Associate,"2,700,000",Hacking/IT Incident
+44,2022,"Connexin Software, Inc.",PA,Business Associate,"2,675,934",Hacking/IT Incident
+45,2018,"AccuDoc Solutions, Inc.",NC,Business Associate,"2,652,537",Hacking/IT Incident
+46,2023,Harvard Pilgrim Health Care,MA,Health Plan,"2,624,191",Hacking/IT Incident
+47,2021,"NEC Networks, LLC d/b/a CaptureRx",TX,Business Associate,"2,600,000",Hacking/IT Incident
+48,2021,"Smile Brands, Inc.",CA,Business Associate,"2,592,494",Hacking/IT Incident
+49,2024,"WebTPA Employer Services, LLC (“WebTPA”)",TX,Business Associate,"2,518,533",Hacking/IT Incident
+50,2023,Norton Healthcare Inc.,KY,Healthcare Provider,"2,500,000",Hacking/IT Incident
+51,2023,"Enzo Clinical Labs, Inc.",NY,Healthcare Provider,"2,470,000",Hacking/IT Incident
+52,2023,"Florida Health Sciences Center, Inc. dba Tampa General Hospital",FL,Healthcare Provider,"2,430,920",Hacking/IT Incident
+53,2021,"Forefront Dermatology, S.C.",WI,Healthcare Provider,"2,413,553",Hacking/IT Incident
+54,2024,INTEGRIS Health,OK,Healthcare Provider,"2,385,646",Hacking/IT Incident
+55,2022,"Shields Health Care Group, Inc.",MA,Business Associate,"2,380,483",Hacking/IT Incident
+56,2023,"Postmeds, Inc.",CA,Healthcare Provider,"2,364,359",Hacking/IT Incident
+57,2024,"Medical Management Resource Group, L.L.C.",AZ,Business Associate,"2,350,236",Hacking/IT Incident
+58,2023,Centers for Medicare & Medicaid Services,MD,Health Plan,"2,342,357",Hacking/IT Incident
+59,2016,21st Century Oncology,FL,Healthcare Provider,"2,213,597",Hacking/IT Incident
+60,2023,"Berry, Dunn, McNeil & Parker, LLC",ME,Business Associate,"2,068,426",Hacking/IT Incident
+61,2014,"Xerox State Healthcare, LLC",TX,Business Associate,"2,000,000",Unauthorized Access/Disclosure
+62,2023,"Arietis Health, LLC",FL,Business Associate,"1,975,066",Hacking/IT Incident
+63,2023,Great Expressions Dental Centers,MI,Healthcare Provider,"1,925,397",Hacking/IT Incident
+64,2022,"Professional Finance Company, Inc.",CO,Business Associate,"1,918,941",Hacking/IT Incident
+65,2011,IBM,NY,Business Associate,"1,900,000",Unknown
+66,2022,Apria Healthcare LLC,IN,Healthcare Provider,"1,868,831",Hacking/IT Incident
+67,2023,"Pension Benefit Information, LLC",MN,Business Associate,"1,866,694",Hacking/IT Incident
+68,2023,Fred Hutchinson Cancer Center,WA,Healthcare Provider,"1,840,927",Hacking/IT Incident
+69,2024,"Summit Pathology and Summit Pathology Laboratories, Inc.",CO,Healthcare Provider,"1,813,538",Hacking/IT Incident
+70,2023,Performance Health Technology,OR,Business Associate,"1,752,076",Hacking/IT Incident
+71,2023,NASCO,GA,Business Associate,"1,744,655",Hacking/IT Incident
+72,2019,"Clinical Pathology Laboratories, Inc.",TX,Healthcare Provider,"1,733,836",Hacking/IT Incident
+73,2024,OnePoint Patient Care,AZ,Healthcare Provider,"1,741,152",Hacking/IT Incident
+74,2020,"Dental Care Alliance, LLC",FL,Business Associate,"1,723,375",Hacking/IT Incident
+75,2011,GRM Information Management Services,NJ,Business Associate,"1,700,000",Theft
+76,2022,Baptist Medical Center,TX,Healthcare Provider,"1,608,549",Hacking/IT Incident
+77,2019,Inmediata Health Group,PR,Healthcare Clearing House,"1,565,338",Unauthorized Access/Disclosure
+78,2021,Eskenazi Health,IN,Healthcare Provider,"1,515,918",Hacking/IT Incident
+79,2022,"Community Health Network, Inc. as an Affiliated Covered Entity",IN,Healthcare Provider,"1,500,000",Unauthorized Access/Disclosure
