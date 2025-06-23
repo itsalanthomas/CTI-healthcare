@@ -49,11 +49,11 @@ Two key visualizations were created:
 
 1. **Heatmap**  
    Shows the number of breaches by state and year  
-   *(See: `heatmap.png`)*
+   *(See: `heatmap.png` in visualizations)*
 
 2. **Pie Chart**  
    Displays the distribution of Covered Entity Types  
-   *(See: `pie_chart.png`)*
+   *(See: `pie_chart.png` in visualizations)*
 
 ---
 
@@ -88,6 +88,7 @@ A regression model was developed to predict the number of individuals affected b
 - Add granular features (e.g., breach description, duration, resolution time)
 - Explore classification models (e.g., high vs low impact breaches)
 - Integrate with external threat intelligence sources
+- Essentially, the dataset is too small
 
 ---
 
