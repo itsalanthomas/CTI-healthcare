@@ -22,7 +22,33 @@ Scraped breach data from the [HIPAA Journal](https://www.hipaajournal.com/) usin
 
 - **Web Scraping**: Selenium, Chromedriver, BeautifulSoup  
 - **Data Analysis & Visualization**: Pandas, Matplotlib, Seaborn  
-- **Machine Learning**: XGBoost Regressor (XGBRegressor), Scikit-learn  
+- **Machine Learning**: XGBoost Regressor (XGBRegressor), Scikit-learn
+
+---
+
+## 🗂️ Project Structure
+data/ — Datasets (raw or cleaned)
+
+healthcare_breaches.csv — Scraped breach data from HIPPA Journal
+
+notebooks/ — Jupyter notebooks for analysis
+
+healthcare data.ipynb — Web scraping from HIPAA Journal
+
+Healthcare_Breaches.ipynb — EDA and visualizations
+
+src/ — Python scripts
+
+regression_model.py — Script for training and evaluating the model
+
+visualizations/ — Output plots and charts
+
+heatmap.png — Breaches by state and year
+
+pie_chart.png — Covered Entity Type distribution
+
+README.md — Project overview and documentation
+
 
 ---
 
