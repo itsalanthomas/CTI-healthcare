@@ -1,16 +1,22 @@
 🩺 Healthcare Cyber Threat Intelligence Analysis
-This project focuses on collecting, exploring, and modeling cyber threat data related to healthcare breaches, sourced from the HIPAA Journal. The goal is to understand patterns in breach incidents and predict the number of individuals affected by such events using machine learning.
+
+This project focuses on collecting, exploring, and modeling cyber threat data related to healthcare breaches, sourced from the HIPAA Journal. The goal is to uncover breach trends and predict the number of individuals affected using machine learning.
 
 🔍 Project Overview
-Source: Data was scraped from HIPAA Journal using Selenium (Chromedriver) to handle JavaScript-rendered content, in conjunction with BeautifulSoup for parsing HTML.
+Source
+Data was scraped from the HIPAA Journal using:
 
-Goal:
+Selenium (with Chromedriver) for rendering JavaScript-based content
 
-Extract healthcare breach data into a clean, structured CSV.
+BeautifulSoup for parsing and extracting HTML elements
 
-Explore and visualize trends across states, time, and breach types.
+Objectives
 
-Predict the impact of future breaches by modeling the number of individuals affected.
+Extract healthcare breach data into a clean, structured CSV
+
+Explore and visualize trends across states, years, and breach types
+
+Predict the potential impact of future breaches via regression modeling
 
 🛠️ Tools & Technologies
 Web Scraping: Selenium, Chromedriver, BeautifulSoup
@@ -22,7 +28,7 @@ Machine Learning: XGBoost Regressor (XGBRegressor), Scikit-learn
 📁 Dataset
 File: healthcare_breaches.csv
 
-Fields include:
+Key Columns:
 
 State
 
@@ -34,30 +40,33 @@ Individuals Affected
 
 Year
 
-Preprocessing included:
+Preprocessing Steps:
 
-Handling missing/null values
+Handled missing and null values
 
-Ensuring appropriate data types for modeling
+Converted columns to appropriate data types for analysis and modeling
 
 📊 Exploratory Data Analysis
-Two main visualizations were created:
+Two core visualizations were created to examine trends:
 
-Heatmap:
-Visualizing the number of healthcare breaches per state and year
+Heatmap
+Number of healthcare breaches by state and year
+📎 heatmap.png
 
-Pie Chart:
-Showing the distribution of Covered Entity Types involved in breaches
+Pie Chart
+Distribution of Covered Entity Types involved in breaches
+📎 pie_chart.png
 
 🤖 Predictive Modeling
-A regression model was trained to predict the number of individuals affected by a breach using:
+A regression model was built to predict the number of individuals affected by a breach using:
 
-Features: State, Covered Entity Type, Type of Breach, and Year
+Features: State, Covered Entity Type, Type of Breach, Year
 
 Target: Individuals Affected (log-transformed)
 
-Model: XGBRegressor
-Metrics:
+Model Used: XGBRegressor
+
+Performance Metrics:
 
 MSE: 2.24
 
@@ -65,21 +74,27 @@ RMSE: 1.50
 
 MAE: 0.93
 
-R² Score: -0.87 (baseline: 1.34)
+R² Score: -0.87 (Baseline: 1.34)
 
-Although model performance was limited, this highlights the variability and potential complexity in predicting breach impact based on metadata alone.
+⚠️ The model struggled to generalize, revealing the complexity and high variance in predicting breach impact based on metadata alone.
 
 📌 Key Takeaways
-Business Associates are involved in over 50% of breach cases.
+Business Associates accounted for over 50% of breach cases.
 
-Breach frequency varies widely by state and year.
+Breach activity varies significantly by state and year.
 
-Modeling breach impact is challenging and may require more granular features (e.g., breach size, incident response time, data type exposed).
+Accurate prediction of breach impact likely requires more detailed features, such as:
+
+Data type exposed
+
+Resolution time
+
+Breach scope or narrative descriptions
 
 ✅ Future Improvements
-Include more granular breach attributes (e.g., detailed descriptions, resolution times).
+Incorporate additional breach-level attributes (e.g., detailed descriptions, response time).
 
-Explore classification models (e.g., high vs low impact breaches).
+Test classification models for predicting high-impact vs low-impact breaches.
 
-Integrate external threat intelligence or vendor datasets.
+Enrich the dataset using external cyber threat intelligence or vendor metadata.
 
