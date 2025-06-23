@@ -91,4 +91,17 @@ A regression model was developed to predict the number of individuals affected b
 - Essentially, the dataset is too small
 
 ---
+## 🗂️ Project Structure
 
+CTI‑healthcare/
+├── data/
+│ └── healthcare_breaches.csv #  input data
+├── notebooks/
+│ └── Healthcare_Breaches.ipynb # EDA & scraping notebook
+└── health care data # Webscraping to get the input data
+├── visualizations/
+│ ├── heatmap.png # Breach frequency heatmap
+│ └── pie_chart.png # Covered Entity Type distribution
+├── src/
+│ └── regression_model.py # Modular regression script
+├── README.md # Project overview & instructions
